@@ -185,7 +185,7 @@ export async function POST(request: Request) {
       }
     `;
 
-    const openAiApiKey = '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';
+    const openAiApiKey = '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';
     const groqApiKey = process.env.GROQ_API_KEY || process.env.GROK_API_KEY;
     const geminiApiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
     const openRouterApiKey = process.env.OPENROUTER_API_KEY;
